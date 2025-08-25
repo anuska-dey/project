@@ -10,7 +10,7 @@ def speak(text):
 def processCommand(c):
     pass
 
-if _name_ == "_main_" :
+if __name__ == "__main__" :
     speak("Initializing")
     while True:
         #listen the wake word
